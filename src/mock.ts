@@ -66,6 +66,54 @@ export const mockedCollections: Collection[] = [
     bannery: '',
     isThemeCollection: false,
     products: ['chaussettes-noel', 'tee-shirt-ombre-arkestar', 'casquette', 'bonnet-ombre']
+  },
+  {
+    id: 'collection-5',
+    name: 'tee-shirts',
+    label: 'Tee-Shirts',
+    bannery: '',
+    isThemeCollection: false,
+    products: []
+  },
+  {
+    id: 'collection-6',
+    name: 'hoodies-crewnecks',
+    label: 'Hoodies & Crewnecks',
+    bannery: '',
+    isThemeCollection: false,
+    products: []
+  },
+  {
+    id: 'collection-7',
+    name: 'vestes',
+    label: 'Vestes',
+    bannery: '',
+    isThemeCollection: false,
+    products: []
+  },
+  {
+    id: 'collection-8',
+    name: 'joggings',
+    label: 'Joggings',
+    bannery: '',
+    isThemeCollection: false,
+    products: []
+  },
+  {
+    id: 'collection-9',
+    name: 'accessoires-textiles',
+    label: 'Accessoires',
+    bannery: '',
+    isThemeCollection: false,
+    products: []
+  },
+  {
+    id: 'collection-10',
+    name: 'objets',
+    label: 'Objets',
+    bannery: '',
+    isThemeCollection: false,
+    products: []
   }
 ];
 

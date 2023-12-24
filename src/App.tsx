@@ -1,12 +1,12 @@
 import { FC } from 'react';
-import './App.css';
+import './App.scss';
 import ProductsContextProvider from './view/context/ProductsContext/ProductsContextProvider';
-import Test from './view/components/Test';
+import Routing from './view/context/Routing/Routing';
 
 const App: FC = () => {
   return (
     <ProductsContextProvider>
-      <Test />
+      <Routing />
     </ProductsContextProvider>
   );
 };

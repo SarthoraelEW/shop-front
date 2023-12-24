@@ -1,0 +1,52 @@
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background-color: white;
+  transition: all 0.15s ease-in;
+  width: 100%;
+
+  .grid-item {
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: 0 1px 0 0;
+  }
+
+  &__content {
+    padding: 0 20px;
+    display: table;
+    color: black;
+
+    &__collections {
+      display: table-cell;
+      width: 20%;
+      flex-direction: column;
+      padding: 20px 0;
+
+      &__title {
+        font-size: 1.1em;
+        padding: 5px 10px;
+        font-weight: bold;
+        font-stretch: condensed;
+      }
+
+      &__label {
+        cursor: pointer;
+        color: #666;
+        padding: 5px 10px;
+        transition: all 0.15s ease-in;
+
+        &:hover {
+          color: #e50a7b;
+        }
+      }
+    }
+
+    &__product {
+      display: table-cell;
+      vertical-align: middle;
+      width: 20%;
+    }
+  }
+}

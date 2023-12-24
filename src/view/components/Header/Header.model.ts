@@ -1,0 +1,6 @@
+export enum MenuItems {
+  HOME = 'HOME',
+  ALL_PRODUCTS = 'ALL_PRODUCTS',
+  COLLECTIONS = 'COLLECTIONS',
+  CONTACT = 'CONTACT'
+}
