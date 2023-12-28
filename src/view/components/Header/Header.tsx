@@ -32,6 +32,10 @@ const Header: FC = () => {
     setActiveDropdownMenu(null);
   };
 
+  if (isMobile) {
+    return <MobileHeader />;
+  }
+
   return (
     <header className="header">
       <video autoPlay loop muted>
